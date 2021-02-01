@@ -1,0 +1,10 @@
+str = input("Please enter a string:\n") #request input and save in a variable
+def reverse_string(str):  #name the method
+    str1 = ""     #create a blank string
+    for i in str:  #loop through the user input adding each character to the front of the formerly blank string
+        str1 = i + str1  
+    return str1
+     
+   
+print("The original string is: ",str)  
+print("The reverse string is",reverse_string(str))  #print to console
